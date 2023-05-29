@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 250px;
+}
+header{
+    margin: 1% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+}
+nav{
+    color: grey;
+}
+nav:first-child{
+    color: #00b39b;
+}
+#first{
+text-align: center;
+}
+.para{
+    display: flex;
+    text-align: start;
+    margin: 2% 20%;
+    gap: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: grey;
+}
+.title{
+   color: #00b39b;
+   margin: 2%;
+   font-size: 25px;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 5% 20%;
+    color: white;
+}
+.card:first-child{
+    background-color: #00ccb1;
+    padding: 2% ;
+    border-radius: 5px;
+    height: 325px;
+    width: 300px;
+    line-height: 1.5;
+    text-align: start;
+}
+.card:nth-child(2){
+    background-color:#3d83df;
+    padding: 2% ;
+    border-radius: 5px;
+    height: 325px;
+    width: 300px;
+    line-height: 1.5;
+    text-align: start;
+}
+.card:last-child{
+    background-color: #1b2734;
+    padding: 2% ;
+    border-radius: 5px;
+    height: 325px;
+    width: 300px;
+    line-height: 1.5;
+    text-align: start;
+}
+.partners>p{
+    color: #00b39b;
+    font-size: 25px;
+    width: 150px;
+}
+.partners{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 2% 20%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.partners>img{
+    width: 100px;
+}
+#green{
+    background-color: #e5faf8;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40em;
+    margin: 2% 0%;
+    padding: 2% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: 10% 150%;
+}
+.green-para{
+    margin-top: 5%;
+    width: 40%;
+    line-height: 1.5;
+}
+.green-para>p:first-child{
+    color: #00b39b;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.green-para>p:last-child{
+    color: grey;
+    font-size: 15px;
+}
+.green-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+.green-card{
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    height: 275px;
+}
+.green-title{
+    color: #00b39b;
+    margin: 10%;
+    font-size: 25px;
+}
+.green-card:first-child{
+    margin: 5% 2% 2% 0;
+}
+.green-card:nth-child(2){
+    margin: -5% 2% 2% 0;
+}
+.green-card:nth-child(3){
+    margin: 0 2% 5% 0;
+}
+.green-card:last-child{
+    margin: -10% 0 0 0;
+}
+#avant-final{
+    text-align: center;
+    /* margin: 0% 20%; */
+    color: grey;
+}
+.first-title{
+    color: #00b39b;
+    font-size: 25px;
+}
+.country{
+    border-radius: 5px;
+    width: fit-content;
+    border:1px groove ;
+}
+.country>img{
+    border-radius: 5px 5px 0 0 ;
+    width: 320px;
+}
+.country-card-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: centerx;
+    margin: 5%;
+}
+.country-card-btn>button{
+    color: white;
+    background-color: #3d83df;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.countries{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 5% ;
+}
+#final{
+    text-align: center;
+    font-size: 25px;
+}
+#final>button{
+    color: white;
+    background-color: #3d83df;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 2%;
+}
+footer{
+    border-top: 1px groove;
+    text-align: center;
+    margin:2% 20%;
+    padding: 1%;
+    color: grey;
+}
+span{
+    color: #3d83df;
+}
+@media screen and (max-width:800px) {
+    #green{
+        display: block;
+        text-align: center;
+        height: fit-content;
+    }
+    .green-cards{
+        display: block;
+    }
+    .green-para{
+        width:fit-content ;
+    }
+    #cards{
+        display: block;
+    }
+    .card{
+        margin: 5%;
+    }
+}
